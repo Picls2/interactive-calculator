@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    overflow: hidden;
+    background-color: grey;
+    justify-content: center;
+    align-content: center;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    background-color: #292e2c;
+    padding: 2%;
+    margin-top: 2%;
+    width: 35%;
+    border-width: 0.5px;
+    border-color: grey;
+    border-radius: 1em;
+}
+
+#viewer{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    border-width: 2px;
+    border-color: black;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.numbers{
+    background-color: black;
+    border-top-width: 0.25px;
+    border-left-width: 0.25px;
+    border-bottom-width: 0.25px;
+    border-right-width: 0.25px;
+    border-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    justify-self: center;
+    width: 70%;
+    height: 4rem;
+}
+
+.left{
+    margin-left: 25%;
+}
+
+.right{
+    margin-right: 25%
+}
