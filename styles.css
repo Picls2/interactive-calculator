@@ -9,13 +9,13 @@ body{
 #container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-column-gap: 5%;
     grid-row-gap: 5%;
     background-color: #292e2c;
     padding: 2%;
     margin-top: 2%;
-    width: 35%;
+    width: 20%;
     border-width: 0.5px;
     border-color: grey;
     border-radius: 1em;
@@ -41,15 +41,12 @@ body{
 
 .numbers{
     background-color: black;
-    border-top-width: 0.25px;
-    border-left-width: 0.25px;
-    border-bottom-width: 0.25px;
-    border-right-width: 0.25px;
-    border-color: black;
+    border-width: 0.5;
+    border-color: white;
     color: white;
     border-radius: 0.5rem;
     justify-self: center;
-    width: 70%;
+    width: 95%;
     height: 4rem;
 }
 
@@ -58,5 +55,18 @@ body{
 }
 
 .right{
-    margin-right: 25%
+    margin-right: 25%;
+    background-color: orange;
+}
+
+.top{
+    background-color: grey;
+}
+
+#equals{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    justify-self: center;
+    width: 94%;
+    margin-right: 7%
 }
